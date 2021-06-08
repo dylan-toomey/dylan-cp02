@@ -1,0 +1,29 @@
+{
+  "name": "dylan-cp02",
+  "version": "1.0.0",
+  "description": "Deva Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon  index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylan-toomey/dylan-cp02.git"
+  },
+  "keywords": [
+    "scratch"
+  ],
+  "author": "dylan toomey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylan-toomey/dylan-cp02/issues"
+  },
+  "homepage": "https://github.com/dylan-toomey/dylan-cp02#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}

@@ -1,0 +1,42 @@
+h1 {
+    margin: 5px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.inner {
+    width: 100%;
+}
+#egg, #chicken {
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+      background-color: lightblue;
+    }
+    #mobile, #chicken {
+        display: none;
+    }
+    #egg {
+        display: block;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    body {
+      background-color: lightsalmon;
+    }
+    #mobile, #egg {
+        display: none;
+    }
+    #chicken {
+        display: block;
+    }
+  }
